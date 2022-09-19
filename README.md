@@ -1,70 +1,88 @@
-# Getting Started with Create React App
+Nara's Portfolio Website built with ReactJS
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+## Table of Contents 
 
-## Available Scripts
+- [Description](#description)
+- [User Story](#user-story)
+- [Solution](#solution)
+- [Live](#live)
 
-In the project directory, you can run:
+## Description
 
-### `npm start`
+I upgraded my portfolio webpage using my React skills. It is a single-page application built completely from scratch and deployed to Heroku. This application uses the following packages and dependencies: 
+- [create-react-app](https://create-react-app.dev)
+- [react-bootstrap](https://react-bootstrap.github.io/)
+- [Material UI library](https://mui.com/) 
+- [Bootstrap](https://getbootstrap.com/)
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+From the design side, here are a few challenges I decided to take:
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+- Mobile-first design.
+- A color scheme generator [Coolors](https://coolors.co/) distinguishes from the default Bootstrap theme or unstyled HTML sites. 
+- The `Material UI` library works great with React.js for Styling. 
 
-### `npm test`
+## User Story
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+```md
+AS AN employer looking for candidates with experience building single-page applications
+I WANT to view a potential employee's deployed React portfolio of work samples
+SO THAT I can assess whether they're a good candidate for an open position
+```
 
-### `npm run build`
+## Solution
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+This is a single-page application for a web developer's portfolio. The portfolio is presented with a page containing a header, a section for content, and a footer component, which is appeared on multiple pages:
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+* A single `Header` component: The header is presented with the name and navigation with titles corresponding to different sections of the portfolio.
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+* A single `Navigation` component: Within the header, the navbar is used to conditionally render About Me, Project, Contact, and Resume sections.
 
-### `npm run eject`
+* A single `Icons` component: The icons component is presented with Phone, Email, Github, and LinkedIn `Material UI` icons with links. I tested to use the `Material UI` library only on this component.
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+* A single `Footer` component that appears on multiple pages.
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+When the portfolio website loads the first time, the About Me tab is selected by default. The About Me section includes a recent photo or avatar of the developer and a short bio about me.
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+The Portfolio section includes titled images of five of the developer’s applications. For each project that is featured in the portfolio, including the following:
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+- An image of the deployed application 
+- The title of the project
+- A link to the deployed application
+- A link to the corresponding GitHub repository.
 
-## Learn More
+The Contact Me section includes a contact form with fields for a name, an email address, and a message. When I move my cursor out of one of the form fields without entering text, the user receive a notification that this field is required. Also, the email address field is validated by the application using a helper function in the back-end.
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+The Resume section includes a link to a downloadable resume and a list of the developer’s skills.
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+### Wireframe
 
-### Code Splitting
+The portfolio webpage's sections and links:
+```
+Nara Portfolio
+│
+│ --About (profile photo and short introduction)
+│
+│ --Project (my latest 5 project links)
+│
+│ --Resume (downloadable PDF file)
+│
+└───Contact
+    │
+    └─── Phone
+    │
+    └─── Email
+    │
+    └─── GitHub (https://github.com/Nara1469)
+    │
+    └─── LinkedIn (https://linkedin.com/in/naradavaasuren)
+```
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+## Live
 
-### Analyzing the Bundle Size
+This web application is deployed to Heroku.com. Here is a link to the deployed website. [Heroku - Nara Portfolio](https://portfolio-of-nara.herokuapp.com/)
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+If you have any questions about the repo, open an issue or contact me directly at naraamtm@gmail.com. Here is a link to this application repo on [GitHub](https://github.com/Nara1469/portfolio).
 
-### Making a Progressive Web App
+The following image shows the deployed webpage’s appearance: ![Portfolio](./assets/portfolio.png)
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+Some of my projects are displayed in the Project section with website and repo links: ![Projects](./assets/project.png)
