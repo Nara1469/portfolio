@@ -9,7 +9,7 @@ Nara's Portfolio Website built with ReactJS
 
 ## Description
 
-I upgraded my portfolio webpage using my React skills. It is a single-page application built completely from scratch and deployed to Heroku. This application uses the following packages and dependencies: 
+I upgraded my portfolio webpage using my React skills. It is a single-page application built completely from scratch and deployed to GitHub. This application uses the following packages and dependencies: 
 - [create-react-app](https://create-react-app.dev)
 - [react-bootstrap](https://react-bootstrap.github.io/)
 - [Material UI library](https://mui.com/) 
@@ -31,11 +31,11 @@ SO THAT I can assess whether they're a good candidate for an open position
 
 ## Solution
 
-This is a single-page application for a web developer's portfolio. The portfolio is presented with a page containing a header, a section for content, and a footer component, which is appeared on multiple pages:
+This is a single-page application for my portfolio. The website is presented with a page containing a header, and a footer component, which is appeared on multiple pages.
 
 * A single `Header` component: The header is presented with the name and navigation with titles corresponding to different sections of the portfolio.
 
-* A single `Navigation` component: Within the header, the navbar is used to conditionally render About Me, Project, Contact, and Resume sections.
+* A single `Navigation` component: Within the header, the navbar is used to conditionally render About Me, Project, Contact Me, and Resume sections.
 
 * A single `Icons` component: The icons component is presented with Phone, Email, Github, and LinkedIn `Material UI` icons with links. I tested to use the `Material UI` library only on this component.
 
@@ -79,7 +79,7 @@ Nara Portfolio
 
 ## Live
 
-This web application is deployed to Heroku.com. Here is a link to the deployed website. [Heroku - Nara Portfolio](https://portfolio-of-nara.herokuapp.com/)
+This web application is deployed to GitHub. Here is a link to the deployed website. [GitHub - Nara Portfolio](https://nara1469.github.io/portfolio/)
 
 If you have any questions about the repo, open an issue or contact me directly at naraamtm@gmail.com. Here is a link to this application repo on [GitHub](https://github.com/Nara1469/portfolio).
 
