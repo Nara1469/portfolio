@@ -1,6 +1,6 @@
 import React from 'react';
 import Icons from './Icons';
-import ResumePDF from '../images/narresume.pdf';
+import ResumePDF from '../images/nararesume.pdf';
 import { Container, Row, Col } from 'react-bootstrap';
 
 export default function Resume() {
