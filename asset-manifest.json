@@ -1,22 +1,22 @@
 {
   "files": {
     "main.css": "/portfolio/static/css/main.fbc4e5cf.css",
-    "main.js": "/portfolio/static/js/main.149c06c1.js",
+    "main.js": "/portfolio/static/js/main.f9fc39fe.js",
     "static/js/787.1ed0c42c.chunk.js": "/portfolio/static/js/787.1ed0c42c.chunk.js",
     "static/media/mapped-event-tracker.png": "/portfolio/static/media/mapped-event-tracker.7bffb405ee81b5b842ca.png",
     "static/media/profile-picture.jpeg": "/portfolio/static/media/profile-picture.ad0983e7bbbee7afa1d4.jpeg",
+    "static/media/nara-resume.pdf": "/portfolio/static/media/nara-resume.ce55f469418735387149.pdf",
     "static/media/coding-languages.jpg": "/portfolio/static/media/coding-languages.a62bdc7d15a71fb82e56.jpg",
-    "static/media/narresume.pdf": "/portfolio/static/media/narresume.3ef449d8f8eb44830d74.pdf",
     "static/media/weather-dashboard.png": "/portfolio/static/media/weather-dashboard.6b4a091c87bfa454d795.png",
     "static/media/tech-blog.png": "/portfolio/static/media/tech-blog.e28530cae4acd12b2d29.png",
     "static/media/financial-statement-analysis.png": "/portfolio/static/media/financial-statement-analysis.568c707ede178cdf788a.png",
     "index.html": "/portfolio/index.html",
     "main.fbc4e5cf.css.map": "/portfolio/static/css/main.fbc4e5cf.css.map",
-    "main.149c06c1.js.map": "/portfolio/static/js/main.149c06c1.js.map",
+    "main.f9fc39fe.js.map": "/portfolio/static/js/main.f9fc39fe.js.map",
     "787.1ed0c42c.chunk.js.map": "/portfolio/static/js/787.1ed0c42c.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.fbc4e5cf.css",
-    "static/js/main.149c06c1.js"
+    "static/js/main.f9fc39fe.js"
   ]
 }
